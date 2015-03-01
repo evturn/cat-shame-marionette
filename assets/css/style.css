@@ -1,4 +1,4 @@
-img.angry_cat_pic {
+img.angry-cat-pic {
     height: 100px;
     width: 100px;
 }
@@ -9,29 +9,29 @@ img.angry_cat_pic {
     margin-right: auto;
 }
 
-#angry_cats {
+#angry-cats {
     margin-top: 30px;
 }
 
-#angry_cats .angry_cat {
+#angry-cats .angry-cat {
     font-size: 20px;
     font-weight: bold;
 }
 
-#angry_cats th {
+#angry-cats th {
     font-size: 24px;
 }
 
-#angry_cats td, table#angry_cats th {
+#angry-cats td, table#angry-cats th {
     padding: 12px;
 }
 
-#angry_cats td.rank div {
+#angry-cats td.rank div {
     display: block;
     text-align: center;
 }
 
-#angry_cats .rank_up img, .rank_down img {
+#angry-cats .rank-up img, .rank-down img {
     padding: 8px;
     padding-right: 24px;
     padding-left: 24px;
@@ -43,6 +43,6 @@ img.angry_cat_pic {
     cursor: hand;
 }
 
-#angry_cats .rank_up img:hover, .rank_down img:hover {
+#angry-cats .rank-up img:hover, .rank-down img:hover {
     background-color: #ccc;
 }
