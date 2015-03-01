@@ -4,9 +4,9 @@ AngryCatsView = Backbone.Marionette.CompositeView.extend({
 	className: 'table-striped table-bordered',
 	template: '#angry-cats-template',
 	itemView: AngryCatView,
-	initialize: function() {
-		this.listenTo(this.collection, 'sort', this.renderCollection);
-	},
+	// initialize: function() {
+	// 	this.listenTo(this.collection, 'sort', this.renderCollection);
+	// },
 	appendHtml: function(collectionView, itemView) {
 		collectionView.$('tbody').append(itemView.el);
 	},

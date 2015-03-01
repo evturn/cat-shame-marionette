@@ -4,9 +4,9 @@ CatApp.addRegions({
 	mainRegion: "#content"
 });
 
-CatApp.addInitialize(function(options) {
+CatApp.addInitializer(function(options) {
 	var angryCatsView = new AngryCatsView({
-		collection: option.cats
+		collection: options.cats
 	});
 	CatApp.mainRegion.show(angryCatsView);
 });
