@@ -4,4 +4,6 @@ $(function() {
 		{name: 'Spolied Ass Cat'},
 		{name: 'Anxeity Disorder Cat'}
 	]);
+
+	CatApp.start({cats: cats});
 });
