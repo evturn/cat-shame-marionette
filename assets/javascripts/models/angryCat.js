@@ -1,0 +1,3 @@
+AngryCat = Backbone.Model.extend({
+	
+});
